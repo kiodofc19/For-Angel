@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Canva Registration</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="page-header bg-primary text-white">
+<h3>Canva</h3>
+<p>Canva is an online design and publishing tool with a mission to empower everyone in the world to design anything and publish anywhere.</p>
+</div>  
+
+<div class="container">
+<div class="row">
+
+<div class="col-md-4">
+
+<p class="btn btn-primary btn-block">Introduction to Canva</p>
+<p class="btn btn-default btn-block">Introducing Design School</p>
+<p class="btn btn-success btn-block">Canva For Education</p>
+
+<button class="btn btn-success btn-block" data-toggle="modal" data-target="#registerModal">
+Register your Account
+</button>
+
+<h4><b>Upgrade Your Canva with Chat</b></h4>
+
+<form>
+
+<div class="form-group">
+<label>Name</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="form-group">
+<label>Email Address</label>
+<input type="email" class="form-control">
+</div>
+
+<div class="form-group">
+<label>Message</label>
+<textarea class="form-control"></textarea>
+</div>
+
+<button class="btn btn-primary btn-block">Submit</button>
+
+</form>
+
+</div>
+
+<div class="col-md-8">
+
+<div id="carouselExample" class="carousel slide" data-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="item active">
+<img src="../pics/1.jpg" class="img-responsive center-block" style="width:100%; height:400px; object-fit:cover;">
+</div>
+
+<div class="item">
+<img src="../pics/2.jpg" class="img-responsive center-block" style="width:100%; height:400px; object-fit:cover;">
+</div>
+
+<div class="item">
+<img src="../pics/3.jpg" class="img-responsive center-block" style="width:100%; height:400px; object-fit:cover;">
+</div>
+
+</div>
+
+<a class="left carousel-control" href="#carouselExample" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+
+<a class="right carousel-control" href="#carouselExample" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="registerModal">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<h4 class="modal-title">Registration Form</h4>
+</div>
+
+<div class="modal-body">
+
+<div class="row">
+
+<div class="col-md-6 form-group">
+<label>First Name</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="col-md-6 form-group">
+<label>Last Name</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="col-md-6 form-group">
+<label>Password</label>
+<input type="password" class="form-control">
+</div>
+
+<div class="col-md-6 form-group">
+<label>Birthday</label>
+<input type="date" class="form-control">
+</div>
+
+</div>
+
+<div class="form-group">
+<label>Address</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="row">
+
+<div class="col-md-4 form-group">
+<label>Barangay</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="col-md-4 form-group">
+<label>Municipality</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="col-md-4 form-group">
+<label>Province</label>
+<select class="form-control">
+<option>Ilocos Norte</option>
+<option>Ilocos Sur</option>
+<option>La Union</option>
+<option>Pangasinan</option>
+</select>
+</div>
+
+</div>
+
+<div class="checkbox">
+<label>
+<input type="checkbox"> I agree to the terms and conditions
+</label>
+</div>
+
+<button class="btn btn-primary">Register</button>
+
+</div>
+
+<div class="modal-footer">
+<button class="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
